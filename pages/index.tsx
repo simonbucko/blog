@@ -1,22 +1,24 @@
 import Head from 'next/head'
 import {PostCard, Categories, PostWidget} from "../components"
+import {getPosts} from "../services"
 
-const posts = [
-  {
-    title:"React testing",
-    excerpt: "Learn react testing"
-  },
-  {
-    title:"React testing2",
-    excerpt: "Learn react testing"
-  },
-  {
-    title:"React testing3",
-    excerpt: "Learn react testing"
-  },
-]
+// const posts = [
+//   {
+//     title:"React testing",
+//     excerpt: "Learn react testing"
+//   },
+//   {
+//     title:"React testing2",
+//     excerpt: "Learn react testing"
+//   },
+//   {
+//     title:"React testing3",
+//     excerpt: "Learn react testing"
+//   },
+// ]
 
-export default function Home() {
+//post are coming as props from the static function at the botttom
+export default function Home({posts}) {
   return (
     <div className="container mx-auto px-10 mb-8">
       <Head>
@@ -39,4 +41,14 @@ export default function Home() {
       </div>
     </div>
   )
+}
+
+//way how we can fetch static data in Nextjs
+export async function getStaticProps(){
+  const posts = (await getPosts()) || []
+  return {
+    props:{
+      posts
+    }
+  }
 }
