@@ -43,6 +43,7 @@ const FeaturedPosts = () => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
+        style={{ margin: "auto" }}
       >
         <path
           strokeLinecap="round"
@@ -62,6 +63,7 @@ const FeaturedPosts = () => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
+        style={{ margin: "auto" }}
       >
         <path
           strokeLinecap="round"
