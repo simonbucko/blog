@@ -1,29 +1,29 @@
-# Next.js + Tailwind CSS Example
+# Simon's Blog
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+[Live Site](https://blog-simonbucko.vercel.app/)
 
-## Preview
+<img src="https://github.com/simonbucko/subscribe_client/blob/main/src/assets/projectPic.png?raw=true" alt="subscribe app"/>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## About
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+This project is used to create a simple blog application. The project is using GrpahCMS as a solution for storying and managing posts as well as comments. The purpose with this blog was just to demonstrate my skills, so actual posts and content does not have any value.
 
-## Deploy your own
+## Used stack
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+- NextJS
+- Typescript
+- Tailwind
+- vercel
+- GrpahCMS
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Available Scripts
 
-## How to use
+In the project directory, you can run:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### `npm run dev`
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-https://graphcms.com/
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
