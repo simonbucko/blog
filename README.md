@@ -2,7 +2,7 @@
 
 [Live Site](https://blog-simonbucko.vercel.app/)
 
-<img src="https://github.com/simonbucko/subscribe_client/blob/main/src/assets/projectPic.png?raw=true" alt="subscribe app"/>
+<img src="https://github.com/simonbucko/blog/blob/main/assets/projectPic.png?raw=true" alt="subscribe app"/>
 
 ## About
 
