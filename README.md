@@ -6,7 +6,7 @@
 
 ## About
 
-This project is used to create a simple blog application. The project is using GrpahCMS as a solution for storying and managing posts as well as comments. The purpose with this blog was just to demonstrate my skills, so actual posts and content does not have any value.
+This project is used to create a simple blog application. The project is using GrpahCMS as a solution for storing and managing posts as well as comments. The purpose of this blog was just to demonstrate my skills, so actual posts and content do not have any value.
 
 ## Used stack
 
