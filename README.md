@@ -12,6 +12,7 @@ This project is used to create a simple blog application. The project is using G
 
 - NextJS
 - Typescript
+- GraphQL
 - Tailwind
 - vercel
 - GrpahCMS
